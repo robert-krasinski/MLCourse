@@ -1,0 +1,1 @@
+#create information about dev performance#X - days worked in sprint for given developer#y - delivered story pointsfunction [X, y] = createDevData(m)stats = [0.8 0.5 0.5 0.5 0.1]X = randi(10, m,5);y = X * stats';end

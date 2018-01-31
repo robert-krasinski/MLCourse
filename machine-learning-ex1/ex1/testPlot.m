@@ -1,0 +1,1 @@
+[X y] = createDevData(10000);figure;scatter3(X(:,1), X(:,2), y);theta = [6.099500 0.875041 2.292655]hold ;f = @(x,y) 6.099500 * x + 0.875041 * y +  2.292655ezsurf (f, [0, 10]);hold;#fprintf('Press enter...\n');#pause;
